@@ -1,6 +1,6 @@
 {
   "name": "inducer",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Inject Redux reducer with HOC",
   "main": "build/index.js",
   "files": ["build"],
