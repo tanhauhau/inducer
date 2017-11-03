@@ -1,6 +1,6 @@
 {
   "name": "inducer",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Inject Redux reducer with HOC",
   "main": "index.js",
   "repository": "https://github.com/tanhauhau/inducer.git",
@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint . --ext js --fix",
     "build": "babel --out-dir build src --ignore src/__tests__",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepare": "npm run lint && npm run build"
   },
   "dependencies": {},
   "devDependencies": {
