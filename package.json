@@ -1,8 +1,9 @@
 {
   "name": "inducer",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Inject Redux reducer with HOC",
   "main": "build/index.js",
+  "files": ["build"],
   "repository": "https://github.com/tanhauhau/inducer.git",
   "author": "Tan Li Hau <lhtan93@gmail.com>",
   "license": "MIT",
@@ -28,7 +29,6 @@
     "react": "^16.0.0"
   },
   "peerDependencies": {
-    "babel-runtime": "^6.26.0",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-redux": "^5.0.6"
