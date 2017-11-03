@@ -1,9 +1,11 @@
 {
   "name": "inducer",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Inject Redux reducer with HOC",
   "main": "build/index.js",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "repository": "https://github.com/tanhauhau/inducer.git",
   "author": "Tan Li Hau <lhtan93@gmail.com>",
   "license": "MIT",
