@@ -1,0 +1,41 @@
+{
+  "name": "inducer",
+  "version": "1.0.0",
+  "description": "Inject Redux reducer with HOC",
+  "main": "index.js",
+  "repository": "https://github.com/tanhauhau/inducer.git",
+  "author": "Tan Li Hau <lhtan93@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext js --fix",
+    "build": "babel --out-dir build src --ignore src/__tests__",
+    "precommit": "lint-staged"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.10.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.7.4",
+    "react": "^16.0.0"
+  },
+  "peerDependencies": {
+    "babel-runtime": "^6.26.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-redux": "^5.0.6"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "eslint --fix"
+      ]
+    }
+  }
+}
